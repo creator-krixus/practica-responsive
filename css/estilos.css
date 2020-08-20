@@ -77,7 +77,16 @@ section:nth-child(3){
     .contenedor-texto{
         text-align: center;
     }
-    
+    .ant{
+        position: relative;
+        top: 40px;
+       right: 40px;
+    }
+    .sgt{
+        position: center;
+        top:40px;
+        left: 40px;
+    }
 }
 @media screen and (max-width:600px){
     section > img{
