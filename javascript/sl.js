@@ -6,21 +6,23 @@ var imagenes = [
 ];
 var num = 0;
 
-function siguiente(){
+function siguiente() {
     var slider =
-    document.getElementById("slider");
+        document.getElementById("slider");
     num++;
-    if( num >= imagenes.length){
+    if (num >= imagenes.length) {
         num = 0;
     }
     slider.src = imagenes[num];
 };
 var num = 0;
 
-function anterior(){
+function anterior() {
     var slider =
-    document.getElementById("slider")
+        document.getElementById("slider")
     num--;
-    if(num < 0) {num = imagenes.length-1};
+    if (num < 0) {
+        num = imagenes.length - 1
+    };
     slider.src = imagenes[num];
 };
