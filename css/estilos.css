@@ -50,6 +50,7 @@ button{
     border-radius: 10px;
     width: 60px;
     height: 60px;
+    border-radius: 500px;
 }
 section img{
     height: 60%;
@@ -63,9 +64,7 @@ section:nth-child(2){
 section:nth-child(3){
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
-/*img{
-    border-radius: 500px;
-}*/
+ 
 @media screen and (max-width:1000px){
     section{
         flex-direction: column-reverse;

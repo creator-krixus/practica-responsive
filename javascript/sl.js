@@ -1,5 +1,4 @@
 var imagenes = [
-    "/imagenes/wyg.svg",
     "/imagenes/mg1.svg",
     "/imagenes/mg2.svg",
     "/imagenes/mg3.svg"
@@ -26,3 +25,4 @@ function anterior() {
     };
     slider.src = imagenes[num];
 };
+
